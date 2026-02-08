@@ -50,7 +50,7 @@
         <!--
         Define the variable for the location for the Installation Manager package group.  
         -->
-        <variable name='sharedLocation' value='$$/fullpath/sharedLocation/IBM/IBMIMShared$$'/>
+        <variable name='sharedLocation' value='/home/admin/apps/IMShared'/>
 
         <!--
         Define the variable (siLocation) to use for your B2Bi installation. If you are installing 
@@ -60,7 +60,7 @@
         When installing a node with GM only, this directory must be the same as its associated B2Bi 
         instance.
         -->
-        <variable name='siLocation' value='$$/fullpath/sharedLocation/IBM/siLocation$$'/>
+        <variable name='siLocation' value='/home/admin/apps/b2bi'/>
     </variables>
     <server>
         <!-- 
@@ -93,7 +93,7 @@
         Provide the full path to the location where you downloaded the jdk provided in the 
         installation package. 
         Value=Full path/jdk downloaded location-->
-        <data key='user.sb.JVM_LOC,com.ibm.sterling.integrator.install.offering' value='$$/fullpath/java_directory_name$$'/>
+        <data key='user.sb.JVM_LOC,com.ibm.sterling.integrator.install.offering' value='/home/admin/apps/jdk17'/>
         <data key='user.sb.JDK64BIT,com.ibm.sterling.integrator.install.offering' value='true'/> 
         <!-- 
         FIPS mode should be set to value=true if you are enabling FIPS. Otherwise, leave default. -->
@@ -131,16 +131,16 @@
         System passphrase information needed for Sterling B2B Integrator. See section in this file 
         for handling encrypted passphrase.  
         -->
-        <data key='user.sb.APSERVER_PASS,com.ibm.sterling.integrator.install.offering' value='$$system_passphrase$$'/>
-        <data key='user.confirmPassphrase,com.ibm.sterling.integrator.install.offering' value='$$system_passphrase$$'/>
+        <data key='user.sb.APSERVER_PASS,com.ibm.sterling.integrator.install.offering' value='LabMachine4@Training'/>
+        <data key='user.confirmPassphrase,com.ibm.sterling.integrator.install.offering' value='LabMachine4@Training'/>
 
         <!-- 
         Value=Email address to which Sterling B2B Integrator system level notifications should be 
         sent.   --> 
-        <data key='user.sb.SI_ADMIN_MAIL_ADDR,com.ibm.sterling.integrator.install.offering' value='$$adminEmail@your.email$$'/>
+        <data key='user.sb.SI_ADMIN_MAIL_ADDR,com.ibm.sterling.integrator.install.offering' value='md.jawahar@ibm.com'/>
         <!-- 
         Value=Port of the SMTP host for the notification email address.   --> 
-        <data key='user.sb.SI_ADMIN_SMTP_HOST,com.ibm.sterling.integrator.install.offering' value='$$smtpServerHostname$$'/>
+        <data key='user.sb.SI_ADMIN_SMTP_HOST,com.ibm.sterling.integrator.install.offering' value='25'/>
 
         <!-- 
         Database vendor information. Example file shows non-clustered DB2. See 
@@ -167,15 +167,15 @@
         B2Bi. If installing second or successive nodes in a B2Bi cluster, this MUST be set to false.
         --> 
         <data key='user.sb.DB_CREATE_SCHEMA,com.ibm.sterling.integrator.install.offering' value='true'/>     
-        <data key='user.sb.DB_USER,com.ibm.sterling.integrator.install.offering' value='$$DB_username$$'/>
+        <data key='user.sb.DB_USER,com.ibm.sterling.integrator.install.offering' value='db2inst1'/>
         <!--The values of the DB_PASS and dbconfirmPassword fields must be encrypted. See
         the "Protecting Passwords" section earlier in this file for details. -->
-        <data key='user.sb.DB_PASS,com.ibm.sterling.integrator.install.offering' value='$$DB_password$$'/>
-        <data key='user.dbconfirmPassword,com.ibm.sterling.integrator.install.offering' value='$$DB_password$$'/>
-        <data key='user.sb.DB_DATA,com.ibm.sterling.integrator.install.offering' value='$$DB_Data$$'/>
-        <data key='user.sb.DB_HOST,com.ibm.sterling.integrator.install.offering' value='$$DB_Hostname$$'/>
-        <data key='user.sb.DB_PORT,com.ibm.sterling.integrator.install.offering' value='$$DB_Port$$'/>
-        <data key='user.sb.DB_DRIVERS,com.ibm.sterling.integrator.install.offering' value='$$path/to/jdbc/driver.jar$$'/>
+        <data key='user.sb.DB_PASS,com.ibm.sterling.integrator.install.offering' value='LabMachine4@Training/>
+        <data key='user.dbconfirmPassword,com.ibm.sterling.integrator.install.offering' value='LabMachine4@Training'/>
+        <data key='user.sb.DB_DATA,com.ibm.sterling.integrator.install.offering' value='B2BI'/>
+        <data key='user.sb.DB_HOST,com.ibm.sterling.integrator.install.offering' value='localhost'/>
+        <data key='user.sb.DB_PORT,com.ibm.sterling.integrator.install.offering' value='50000'/>
+        <data key='user.sb.DB_DRIVERS,com.ibm.sterling.integrator.install.offering' value='/home/admin/apps/db2client/db2jcc4.jar'/>
 
         <!--License file required for installation. Leave default. -->
         <data key='user.sb.LICENSE_FILE,com.ibm.sterling.integrator.install.offering' value='Core_License.xml'/>
