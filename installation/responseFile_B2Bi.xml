@@ -120,12 +120,12 @@
 
         <!-- 
         Value=IP address or host name of the system on which you are now installing. -->
-        <data key='user.sb.INSTALL_IP,com.ibm.sterling.integrator.install.offering' value='$$host name$$'/>
+        <data key='user.sb.INSTALL_IP,com.ibm.sterling.integrator.install.offering' value='localhost'/>
         <!-- 
         Value=Number of Sterling B2B Integrator initial port; requires a series of 200 available 
         ports, starting with the port selected for this value 
         Example: value='33700' --> 
-        <data key='user.sb.PORT1,com.ibm.sterling.integrator.install.offering' value='$$portnumber$$'/>
+        <data key='user.sb.PORT1,com.ibm.sterling.integrator.install.offering' value='33700'/>
 
         <!-- 
         System passphrase information needed for Sterling B2B Integrator. See section in this file 
