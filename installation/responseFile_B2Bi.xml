@@ -170,7 +170,7 @@
         <data key='user.sb.DB_USER,com.ibm.sterling.integrator.install.offering' value='db2inst1'/>
         <!--The values of the DB_PASS and dbconfirmPassword fields must be encrypted. See
         the "Protecting Passwords" section earlier in this file for details. -->
-        <data key='user.sb.DB_PASS,com.ibm.sterling.integrator.install.offering' value='LabMachine4@Training/>
+        <data key='user.sb.DB_PASS,com.ibm.sterling.integrator.install.offering' value='LabMachine4@Training'/>
         <data key='user.dbconfirmPassword,com.ibm.sterling.integrator.install.offering' value='LabMachine4@Training'/>
         <data key='user.sb.DB_DATA,com.ibm.sterling.integrator.install.offering' value='B2BI'/>
         <data key='user.sb.DB_HOST,com.ibm.sterling.integrator.install.offering' value='localhost'/>
