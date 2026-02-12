@@ -31,6 +31,9 @@ db2 update db cfg for B2BI using LOGSECOND 24
 ```CMD
 ./db2stop force
 ```
-```
+```CMD
 db2start
+```
+```CMD
+exit
 ```
