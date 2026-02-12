@@ -23,3 +23,9 @@ Check the settings:
 ```
 localectl status
 ```
+
+### Reboot the machine
+
+```CMD
+reboot
+```
