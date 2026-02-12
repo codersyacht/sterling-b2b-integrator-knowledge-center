@@ -64,3 +64,20 @@ Output:
 65ftczCjjtIyrr+pc65aULyv9/PxaZ4SzqqA5NzJNmk=
 ```
 ```
+
+Download the Sterling B2B Integrator installation response file from [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/installation/responseFile_B2Bi.xml)
+
+Review the file and make modification as required.
+
+Copy the file into /home/admin/installables/sb2bi/responseFile_B2Bi.xml
+
+Navigate to /home/admin/apps/IM/eclipse/tools
+
+```CMD
+cd /home/admin/apps/IM/eclipse/tools
+```
+Execute the following command to begin installing IBM Sterling B2B Integrator.
+
+```CMD
+./imcl -input /home/admin/installables/sb2bi/responseFile_B2Bi.xml -acceptLicense 
+```
