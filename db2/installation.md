@@ -4,7 +4,7 @@
 
 ## Installing DB2
 
-Download the relevant version of DB2.**
+Download the relevant version of DB2.
 
 In this setup the version used is **DB2_Svr_11.5_Linux_x86-64.tar.gz** <br>
 Download [here](https://w3.ibm.com/software/xl/download/ticket.wss):<br>
@@ -21,7 +21,7 @@ Refer the db2server.rsp file in the following link:<br>
 
 **4. DB2 installation.**
 
-Login as root.
+Login as **root**.
 
 Navigate to the binaries.
 
