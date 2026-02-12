@@ -24,6 +24,8 @@ userinstc -installationDirectory /home/admin/apps/IM -acceptLicense
 
 Note: Administrative directory will be present in /home/admin/opt/ibm
 
+The installation manager will be installed under /home/admin/apps/IM.
+
 ## Uninstallation (Optional)
 
 Follow the instruction below only to perform uninstallation of the IBM Installation Manager.
@@ -38,7 +40,7 @@ These files can be found under /home/<user>/var/ibm/InstallationManager
 Logs related to IBM installation manager and other product installation logs can be found under:
 /home/<user>/var/ibm/InstallationManager/logs
 
-**4. To install product in interactive console mode:**
+**4. To install product in interactive console mode (Optional)**
 ```CMD
 ./imcl –c
 ```
