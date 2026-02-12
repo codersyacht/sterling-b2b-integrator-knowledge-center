@@ -5,7 +5,7 @@
 
 ## Create Database B3BI
 
-Login into the machine as admin user.
+Login into the machine as db2inst1 user.
 
 ```CMD
 db2 CREATE DATABASE B2BI AUTOMATIC STORAGE YES USING CODESET UTF-8 TERRITORY DEFAULT COLLATE USING SYSTEM PAGESIZE 32768
