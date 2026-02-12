@@ -4,7 +4,7 @@
 
 ## Install Java 17
 
-Login as admin user.
+Login as **admin** user.
 
 Setup directory /home/admin/apps (This is subjective to the user and environment)
 
