@@ -42,11 +42,9 @@ unzip Media_IM_6020200.zip
 
 ### Install IBM Installation Manager
 
-To install the IBM Installation Manager, follow the instructions [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/db2/installation.md)
+To install the IBM Installation Manager, follow the instructions [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/system/installation-manager.md)
 
-### Install Sterling B2B Integrator
-
-Encrypt DB and Sterling B2B admin password.
+### Encrypt DB and Sterling B2B admin password.
 
 Navigate to /home/admin/apps/IM/eclipse/tools
 
@@ -63,11 +61,12 @@ Output:
 ```
 65ftczCjjtIyrr+pc65aULyv9/PxaZ4SzqqA5NzJNmk=
 ```
-```
+
+### Install Sterling B2B Integrator
 
 Download the Sterling B2B Integrator installation response file from [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/installation/responseFile_B2Bi.xml)
 
-Review the file and make modification as required.
+Review the file and make modification as required. Note that the encrypted password used in the previous step will be used in the response file. If you want to use a different password, regenrate the encrypted password for a password of your cchoice and use it instead in the response file.
 
 Copy the file into /home/admin/installables/sb2bi/responseFile_B2Bi.xml
 
