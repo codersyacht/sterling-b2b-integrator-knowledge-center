@@ -21,6 +21,13 @@ Refer the db2server.rsp file in the following link:<br>
 
 **4. DB2 installation.**
 
+Login as root.
+
+Navigate to the binaries.
+
+```CMD /root/installables/db2/
+```
+
 explode the compressed file and begin installation.
 
 ```CMD
