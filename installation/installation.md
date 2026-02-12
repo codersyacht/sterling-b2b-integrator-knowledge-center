@@ -8,7 +8,12 @@ Set system time to UTC. Follow instruction [here](https://github.com/codersyacht
 
 Create non-root user, admin. Follow instructions [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/system/create-user.md)
 
+Set system locale to en_UTC. Follow instruction [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/system/locale.md)
+
 Install DB2. Follow instruction [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/db2/installation.md)
 
 Configure DB. Follow instructions [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/db2/configuration.md)
+
+Install Java 17. Follow instruction [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/system/java-installation.md)
+
 
