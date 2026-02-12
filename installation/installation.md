@@ -46,4 +46,21 @@ To install the IBM Installation Manager, follow the instructions [here](https://
 
 ### Install Sterling B2B Integrator
 
+Encrypt DB and Sterling B2B admin password.
 
+Navigate to /home/admin/apps/IM/eclipse/tools
+
+```CMD
+cd /home/admin/apps/IM/eclipse/tools
+```
+Execute the following command:
+
+```CMD
+./imutilsc encryptString LabMachine4@Training
+
+Output:
+```
+```
+65ftczCjjtIyrr+pc65aULyv9/PxaZ4SzqqA5NzJNmk=
+```
+```
