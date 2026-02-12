@@ -41,3 +41,5 @@ unzip Media_IM_6020200.zip
 
 
 ### Install IBM Installation Manager
+
+To install the IBM Installation Manager, follow the instructions [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/db2/installation.md)
