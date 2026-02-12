@@ -18,7 +18,7 @@ In this example it is moved to **/root/installables/db2/DB2_Svr_11.5_Linux_x86-6
 **3. Configure the db2server.rsp file**
 
 Refer the db2server.rsp file in the following link:<br>
-[db2server.rsp](https://github.com/codersyacht/knowledge-center/blob/main/db2/db2server.rsp)
+[db2server.rsp](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/db2/db2server.rsp)
 
 **4. DB2 installation.**
 
@@ -30,8 +30,8 @@ tar -xvf DB2_Svr_11.5_Linux_x86-64.tar.gz
 ```CMD
 cd server_dec/
 ```
-Create a file called db2server.rsp. Sample file is available in the following link. Modify as required. <br>
-_https://github.com/codersyacht/private/blob/main/db2/db2server.rsp_
+Create a file called db2server.rsp. Sample file is available [here](https://github.com/codersyacht/sterling-b2b-integrator-knowledge-center/blob/main/db2/db2server.rsp). Modify as required. <br>
+
 
 ```CMD
 ./db2setup -r /root/installables/db2/server_dec/db2server.rsp -f sysreq
