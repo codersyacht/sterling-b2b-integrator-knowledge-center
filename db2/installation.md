@@ -7,8 +7,7 @@
 Download the relevant version of DB2.**
 
 In this setup the version used is **DB2_Svr_11.5_Linux_x86-64.tar.gz** <br>
-Download location:<br>
-[DB2 Server]([https://w3south-limited-use.cpc.ibm.com/software/xl/download/ticket.wss](https://w3.ibm.com/software/xl/download/ticket.wss)) <br>
+Download [here](https://w3.ibm.com/software/xl/download/ticket.wss):<br>
 part number: **CC1U0ML**
 
 Copy the compressed file to the machine where it need to be installed as root user.
