@@ -22,7 +22,7 @@ Install Java 17. Follow instruction [here](https://github.com/codersyacht/sterli
 Download the Sterling B2B Integrator.
 
 Download [here](https://w3.ibm.com/software/xl/download/ticket.wss)
-part number: G0GX3ML
+part number: M0Y4ZML
 
 Copy the compressed file to the machine where it need to be installed as admin user. Copy it to /home/admin/installables/sb2bi.
 
