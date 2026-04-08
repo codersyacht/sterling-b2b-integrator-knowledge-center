@@ -80,3 +80,71 @@ Execute the following command to begin installing IBM Sterling B2B Integrator.
 ```CMD
 ./imcl -input /home/admin/installables/sb2bi/responseFile_B2Bi.xml -acceptLicense 
 ```
+
+
+## Start Sterling B2B Integrator and Launch Console
+
+After the installation is complete, follow the below steps to start the Sterling B2B Integrator and access the web console.
+
+### Start DB2 database
+
+Switch to the db2inst1 user and start the DB2 database:
+
+```CMD
+su - db2inst1
+db2start
+exit
+```
+
+Expected Output : 
+```CMD 
+SQL1063N DB2START processing was successful.
+```
+
+### Configure Port Forwarding in Termius
+
+In Termius, navigate to **Vaults → Port Forwarding → New Forwarding**
+
+Add a new rule with the following specifications:
+* Type: Local
+* Local port number: 33700
+* Destination address: localhost
+* Destination port: 33700
+
+Save the following rule and enable it.
+
+Connect to the server, if already connected then reconnect. This will activate port forwarding.
+
+### Start Sterling B2B Integrator
+
+Navigate to the Sterling B2B bin directory and start the application:
+```CMD 
+cd /home/admin/apps/b2bi/bin
+./run.sh
+```
+
+If you face any error about existing PID files run:
+
+```CMD 
+./hardstop.sh
+./run.sh
+```
+
+Enter the passphrase when prompted.
+
+### Verify Console Ready
+
+Run the below command to verify that it's responding:
+
+```CMD 
+curl -s -I http://localhost:33700/dashboard/ | head -1
+```
+
+Expected output : `HTTP/1.1 200 OK`
+
+### Access dashboard
+
+Navigate to http://localhost:33700/dashboard/
+
+The Sterling B2B Integrator Login dashboard should be visible.
+
