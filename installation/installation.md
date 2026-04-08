@@ -146,5 +146,12 @@ Expected output : `HTTP/1.1 200 OK`
 
 Navigate to http://localhost:33700/dashboard/
 
-The Sterling B2B Integrator Login dashboard should be visible.
+The Sterling B2B Integrator Login dashboard should be visible, login with the default credentials.
 
+**Default login credentials:**
+- Username: `admin`
+- Password: `password`
+
+On first login, you'll be prompted to change the password. 
+
+After successful password reset you will be redirected to the Sterling B2B Integrator Dashboard.
