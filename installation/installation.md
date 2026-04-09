@@ -111,7 +111,7 @@ Add a new rule with the following specifications:
 * Destination address: localhost
 * Destination port: 33700
 
-Save the following rule and enable it.
+Save the rule and enable it.
 
 Connect to the server, if already connected then reconnect. This will activate port forwarding.
 
@@ -146,7 +146,7 @@ Expected output : `HTTP/1.1 200 OK`
 
 Navigate to http://localhost:33700/dashboard/
 
-The Sterling B2B Integrator Login dashboard should be visible, login with the default credentials.
+The Sterling B2B Integrator Login dashboard should be visible.
 
 **Default login credentials:**
 - Username: `admin`
@@ -154,4 +154,4 @@ The Sterling B2B Integrator Login dashboard should be visible, login with the de
 
 On first login, you'll be prompted to change the password. 
 
-After successful password reset you will be redirected to the Sterling B2B Integrator Dashboard.
+After successful password reset, you will be redirected to the Sterling B2B Integrator Dashboard.
