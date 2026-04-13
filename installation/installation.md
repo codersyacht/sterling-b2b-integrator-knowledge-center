@@ -101,7 +101,9 @@ Expected Output :
 SQL1063N DB2START processing was successful.
 ```
 
-### Configure Port Forwarding in Termius
+### Configure Port Forwarding
+
+#### Using Termius:
 
 In Termius, navigate to **Vaults → Port Forwarding → New Forwarding**
 
@@ -114,6 +116,12 @@ Add a new rule with the following specifications:
 Save the rule and enable it.
 
 Connect to the server, if already connected then reconnect. This will activate port forwarding.
+
+#### Using other SSH Clients:
+
+If not using Termius, configure local port forwarding using the parameters shown below:
+
+<img src="../images/port_forwarding_config.png" alt="Local Port Forwarding Configuration" width="650">
 
 ### Start Sterling B2B Integrator
 
